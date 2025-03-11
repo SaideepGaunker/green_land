@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Character Encoding -->
+    <meta charset="UTF-8" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    
+    <!-- Responsive Design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Page Title -->
+    <title>Garden Gateway</title>
+  </head>
+  <body>
+    <!-- Root Element for React Application -->
+    <div id="root"></div>
+    
+    <!-- Script to Load the React Application -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+<!-- 
+Explanation of the Code:
+This is a basic HTML template for a React application. It serves as the entry point for rendering the application in the browser. Below is a breakdown of its components and functionality:
+
+Key Elements:
+<meta charset="UTF-8" />
+Specifies the character encoding for the document.
+Ensures that special characters (e.g., emojis, accented letters) are displayed correctly.
+<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+Defines the favicon (icon displayed in the browser tab).
+The href points to an SVG file (/vite.svg), which is commonly used in Vite-based projects.
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+Ensures the page is responsive and adapts to different screen sizes.
+width=device-width sets the viewport width to the device's screen width.
+initial-scale=1.0 ensures the page is displayed at a 1:1 scale without zooming.
+<title>Garden Gateway</title>
+Sets the title of the webpage, which appears in the browser tab.
+In this case, the title is "Garden Gateway."
+<div id="root"></div>
+Acts as the root DOM element where the React application will be mounted.
+The React app renders its components inside this <div>.
+<script type="module" src="/src/main.jsx"></script>
+Loads the main JavaScript module (main.jsx) for the React application.
+The type="module" attribute enables ES6 module syntax, allowing modern JavaScript features like import and export.
+How It Works:
+HTML Structure:
+The HTML file provides the basic structure of the webpage.
+It includes metadata (e.g., character encoding, viewport settings) and links to external resources (e.g., favicon).
+React Integration:
+The <div id="root"></div> serves as the container for the React application.
+The <script> tag loads the React app from /src/main.jsx, which initializes and renders the application into the #root element.
+Responsive Design:
+The <meta name="viewport"> tag ensures the application looks good on all devices, including mobile phones and tablets.
+Development Workflow:
+This template is commonly used in modern React applications built with tools like Vite or Create React App.
+During development, changes to the React code are automatically reflected in the browser thanks to hot module replacement (HMR).
+Usage:
+This HTML file is typically used as the starting point for a React application. It:
+
+Serves as the entry point for rendering the React app.
+Provides essential metadata and configuration for the webpage.
+Ensures compatibility with modern web standards and responsive design principles.
+To use this template:
+
+Place it in the public or root directory of your project.
+Ensure the src/main.jsx file contains the React application logic.
+Run the development server (e.g., using npm run dev or yarn dev) to start the app -->
